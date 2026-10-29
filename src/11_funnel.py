@@ -28,3 +28,6 @@ for s in steps:
     prev_cum = len(cum)
 print(len(co))
 print(pd.DataFrame(rows).to_string(index=False))
+
+print("reached main without open_account_main:",
+      len(reached["main"] - reached["open_account_main"]))
