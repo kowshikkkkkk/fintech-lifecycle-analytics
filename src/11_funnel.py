@@ -7,7 +7,7 @@ co = co[co.full_window]
 m = ev.merge(co[["entry_ts"]], left_on="user_id", right_index=True)
 m = m[(m.timestamp >= m.entry_ts) & (m.timestamp <= m.entry_ts + pd.Timedelta(days=7))]
 
-steps = ["registration", "open_account_main", "main",
+steps = ["registration", "main",
          "wallet_deposit", "payment_selection", "wallet_deposit_success"]
 reached = {s: set(m.loc[m.event == s, "user_id"]) for s in steps}
 
@@ -28,6 +28,3 @@ for s in steps:
     prev_cum = len(cum)
 print(len(co))
 print(pd.DataFrame(rows).to_string(index=False))
-
-print("reached main without open_account_main:",
-      len(reached["main"] - reached["open_account_main"]))
