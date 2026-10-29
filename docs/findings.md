@@ -6,3 +6,8 @@
 - Registration-first users (n=8,698, 7-day window): 22.0% reach `main`; 34.2% reach any app or signup-stage page; 59.6% only ever view `registration`.
 - Of those, ~32.5% of the group are single-event bounces; ~2,360 viewed `registration` more than once and nothing else (cause unknown: indecision vs form errors).
 - Using `main` alone as "reached the app" overstated the loss by ~12 points.
+- Heavy-user sensitivity (A6): excluding the 149 flagged users in the cohort changes each funnel step conversion by <= 0.8 points, within the 95% Wilson intervals; funnel conclusions do not depend on them.
+- Funnel step conversions carry 95% Wilson CIs; the last step (payment_selection to deposit success, n=2,348 at risk) is widest at roughly 26.0% to 29.6%. CIs reflect sampling noise only, not the data limits L1 to L5.
+- Activation (n=22,813 with 15+ days observed; early window = first 24h; outcome = any event on days 7-14, 10.5% overall): raw lifts 3.8 to 17.1 pp, all positive.
+- After stratifying by early activity (2+ early events, n=18,459), pooled lifts fall to: main +5.4, wallet +5.6, wallet_deposit +2.8, profile +3.2, wallet_deposit_success +11.9 (10+ band only); open_account_main -3.3. Roughly half or more of raw lift was general engagement.
+- All associations; no causal claim. wallet_deposit_success group is small (444 users in the early window). [PENDING] rerun excluding heavy users; confidence intervals for stratified estimates.
