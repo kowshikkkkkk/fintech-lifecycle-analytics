@@ -13,12 +13,12 @@ A single reminder at 72 hours to users who engaged beyond the registration form 
 - Analysis: intention-to-treat (everyone assigned, whether or not the message was delivered or opened).
 
 ## Metrics
-- Primary: share with any non-registration page view on days 3-9. Baseline 13.49% (n=13,377 in observed data).
-- Secondary (descriptive, underpowered): wallet_deposit_success on days 3-9. Baseline 0.61%.
-- Guardrails: message opt-out / unsubscribe rate [METRIC NEEDED: no baseline in this data]; complaint rate [METRIC NEEDED]. Thresholds set before launch.
+- Primary: share with 2+ non-registration page views on days 3-9 (requires more than a single link landing). Baseline 10.18% (n=13,377 in observed data).
+- Secondary: any non-registration page view on days 3-9 (13.49%); reached `main` (6.41%); wallet_deposit_success (0.61%, descriptive only).
+- Guardrails: message opt-out and complaint rates [METRIC NEEDED: no baseline in this data]. Observed proxies only: `support` page visits (0.40%), `profile_recovery` visits (1.58%).
 
 ## Sample size and duration
-- MDE +2 points (13.5% to 15.5%), alpha 0.05 two-sided, power 80%: 4,861 per arm (9,722 total). At the dataset's traffic (about 1,089 eligible users per week) about 9 weeks; a real deployment would use real traffic. +3 points: 2,221 per arm (about 4 weeks). +1 point: impractical (about 35 weeks).
+- MDE +2 points (10.18% to 12.18%), alpha 0.05 two-sided, power 80%: 3,897 per arm (7,794 total); about 7 weeks at the dataset's traffic (about 1,089 eligible users per week).
 
 ## Stopping rule
 - Fixed horizon: stop when both arms reach the planned size and at least two full weeks have run. No stopping on interim p-values.
