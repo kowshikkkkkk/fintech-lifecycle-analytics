@@ -11,3 +11,8 @@
 - Activation (n=22,813 with 15+ days observed; early window = first 24h; outcome = any event on days 7-14, 10.5% overall): raw lifts 3.8 to 17.1 pp, all positive.
 - After stratifying by early activity (2+ early events, n=18,459), pooled lifts fall to: main +5.4, wallet +5.6, wallet_deposit +2.8, profile +3.2, wallet_deposit_success +11.9 (10+ band only); open_account_main -3.3. Roughly half or more of raw lift was general engagement.
 - All associations; no causal claim. wallet_deposit_success group is small (444 users in the early window). [PENDING] rerun excluding heavy users; confidence intervals for stratified estimates.
+- Retention (registration-intent cohort, relative weeks from each user's entry; any event after entry): week 1 = 10.5%, week 2 = 7.3%, week 4 = 4.9%, week 8 = 3.2% (eligible users shrink from 23,046 to 9,719). Week 1 matches the activation analysis (10.5%).
+- Week 0 (82.6%) includes repeat registration-form views and is not used as a retention signal. First and last entry weeks are partial; no cohort trend claimed. [PENDING] rerun excluding heavy users; confidence intervals.
+- Lifecycle (weeks relative to entry; states per A12): week 1 (n=23,046): active 10.0%, resurrected 0.4%, at-risk 72.3%, dormant 17.2%; by week 8 (n=9,719) about 95% are dormant.
+- Week 1 to week 2 transitions (n=21,400): at-risk users returned 4.3% (666 of 15,430); dormant users 1.4% (51 of 3,705); 37.6% of week-1-active users stayed active (816 of 2,169).
+- Hypothesis (unvalidated): the first week after entry is the main window for intervention. [PENDING] strict sensitivity excluding registration views from week-0 activity; heavy-user rerun.
