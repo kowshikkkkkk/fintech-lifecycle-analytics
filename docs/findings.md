@@ -16,3 +16,5 @@
 - Lifecycle (weeks relative to entry; states per A12): week 1 (n=23,046): active 10.0%, resurrected 0.4%, at-risk 72.3%, dormant 17.2%; by week 8 (n=9,719) about 95% are dormant.
 - Week 1 to week 2 transitions (n=21,400): at-risk users returned 4.3% (666 of 15,430); dormant users 1.4% (51 of 3,705); 37.6% of week-1-active users stayed active (816 of 2,169).
 - Hypothesis (unvalidated): the first week after entry is the main window for intervention. [PENDING] strict sensitivity excluding registration views from week-0 activity; heavy-user rerun.
+- Sensitivity (A6 and activity rule): week 1 retention 10.0-10.5%, week 4 4.3-4.9%, at-risk return in week 2 4.3-4.7% across baseline, excluding 154 heavy users, and strict activity (registration views ignored). Conclusions are stable.
+- The week-1 at-risk share is rule-dependent: 72.3% (baseline) vs 60.5% (strict); dormant 17.2% vs 29.5%. Report as a 60-72% range.
