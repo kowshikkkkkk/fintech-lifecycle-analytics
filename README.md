@@ -140,6 +140,7 @@ Of 15,430 at-risk users in week 1, only **4.3%** returned the following week. Do
 | Churn (weekly) | Active in week t-1 and not active in week t | App users 77.5% (75.9 to 79.1%); all users 88.6% |
 | DAU/MAU | Daily active users ÷ users active in the trailing 30 days | App users 5.8% (average DAU 1,450, MAU 24,786); all users 4.2% |
 | Engagement | Sessions (30-minute gap) per active user per day; pages per session | 1.24 sessions; median 1 page, mean 4.1; 56.9% of sessions are single-page, 21.7% have 5+ pages |
+**North star: weekly depositors** (users with a deposit-success page view in a week): mean 568 per week, about 7.9% of weekly active app users; 23.1% of depositors deposited in 2+ weeks. Inputs: activation (2.7% registration to deposit), engagement (DAU/MAU 5.8%), retention (week 1: 10.0 to 10.5%). The experiment's primary metric (engaged return) is an input metric; guardrails are opt-out and complaint rates (to be measured before launch), with `support` visits (0.40%) as an observed proxy. See [`docs/product_metrics.md`](docs/product_metrics.md).
 
 Full definitions: [`docs/product_metrics.md`](docs/product_metrics.md).
 
